@@ -6008,3 +6008,13 @@ body > * {
   background-size: cover;
   background-repeat: none;
   background-position: center; }
+
+@media (max-width: 767px) {
+  .navbar-dont-collapse {
+    float: left;
+    margin: 0 !important; }
+  .navbar-dont-collapse > li {
+    float: left; }
+  .navbar-dont-collapse > li > a {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important; } }
