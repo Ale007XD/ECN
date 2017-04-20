@@ -10,15 +10,18 @@
 
 <body>
   <nav class="navbar navbar-expand-md navbar-light bg-faded sticky-top">
-    <div class="container"> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid"> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav text-uppercase">
-          <li class="nav-item active px-5"> <a class="nav-link active" href="#complektecii">КОМПЛЕКТАЦИИ И ПЛАНИРОВКИ</a> </li>
-          <li class="nav-item px-5"> <a class="nav-link active" href="#plan">ПЛАН ПОСЕЛКА</a> </li>
-          <li class="nav-item px-5"> <a class="nav-link active" href="#podrad">О ПОДРЯДЧИКЕ</a> </li>
-        </ul> <a class="navbar-brand" href="tel:+73952430502"><b>+7(3952)430502</b></a></div>
+          <li class="nav-item active"> <a class="nav-link active" href="#complektecii">КОМПЛЕКТАЦИИ И ПЛАНИРОВКИ</a> </li>
+          <li class="nav-item"> <a class="nav-link active" href="#plan">ПЛАН ПОСЕЛКА</a> </li>
+          <li class="nav-item"> <a class="nav-link active" href="#podrad">О ПОДРЯДЧИКЕ</a> </li>
+        </ul>
+        <a class="navbar-brand" href="tel:+73952430502"></a>
+      </div> <a class="navbar-brand" href="tel:+73952430502"><b>+7(3952)430502</b></a>
+      <ul class="nav navbar-nav navbar-dont-collapse"> </ul>
     </div>
   </nav>
   <div class="py-5  section" style="background-image: url(&quot;751.1500.png&quot;);">
@@ -191,34 +194,6 @@
       </div>
     </div>
   </div>
-  <div class="modal" id="modal_47">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header text-center"> <button class="close" data-dismiss="modal" type="button">×</button>
-          <h4 class="modal-title text-center">1 этаж, 47 кв. м.</h4>
-        </div>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-6"><img class="center-block img-fluid d-block" src="47%20%D0%BC.%D0%BA%D0%B2.png"></div>
-            <div class="col-md-6">
-              <p class="lead">Одноэтажный жилой дом с участком от 5 до 10 соток </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="text-center" contenteditable="true">Цена за дом с участком 1 269 т. р.&nbsp;</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p class="lead text-center">Этот и любой другой дом вы можете купить в ипотеку&nbsp;</p>
-          </div>
-        </div>
-        <div class="modal-footer"> <a class="btn btn-primary btn-lg btn-block" data-toggle="">ЗАКАЗАТЬ РАСЧЕТ ИПОТЕКИ</a></div>
-      </div>
-    </div>
-  </div>
   <a name="plan"></a>
   <div class="text-center d-flex align-items-center py-5">
     <div class="container">
@@ -237,7 +212,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-gray-dark">Информация о подрядчике строительства</h1>
+          <h1 class="text-gray-dark">Застройщик поселка</h1>
           <p class="lead">ООО «Домострой Профи» занимается проектированием, строительством жилых зданий, в том числе по государственным программам переселения из ветхого и аварийного жилого фонда. ООО «Домострой Профи» обладает необходимым набором транспортных средств,
             спецтехники, установок, станков и оборудования для выполнения различных видов работ.</p>
         </div>
@@ -281,19 +256,33 @@
         </div>
         <div class="col-md-6 p-0"> <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;center=%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB.%2C+4+%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA+%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.+664003&amp;zoom=16&amp;size=640x300&amp;sensor=false&amp;scale=2">          </div>
       </div>
-    </div>
-  </div>
-  <div class="modal" id="modal_120">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header"> <button class="close" data-dismiss="modal" type="button">×</button>
-          <h4 class="modal-title">Modal title</h4>
+      <div class="modal" id="modal_47">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header text-center"> <button class="close" data-dismiss="modal" type="button">×</button>
+              <h4 class="modal-title text-center">1 этаж, 47 кв. м.</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6"><img class="center-block img-fluid d-block" src="47%20%D0%BC.%D0%BA%D0%B2.png"></div>
+                <div class="col-md-6">
+                  <p class="lead">Одноэтажный жилой дом с участком от 5 до 10 соток </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="text-center" contenteditable="true">Цена за дом с участком 1 269 т. р.&nbsp;</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p class="lead text-center">Этот и любой другой дом вы можете купить в ипотеку&nbsp;</p>
+              </div>
+            </div>
+            <div class="modal-footer"> <a class="btn btn-primary btn-lg btn-block" data-toggle="">ЗАКАЗАТЬ РАСЧЕТ ИПОТЕКИ</a></div>
+          </div>
         </div>
-        <div class="modal-body">
-          <p>One fine body...</p>
-        </div>
-        <div class="modal-footer"> <a class="btn btn-default" data-dismiss="modal">Close</a> <a class="btn btn-primary">Save
-                changes</a> </div>
       </div>
     </div>
   </div>
